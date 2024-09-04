@@ -1,0 +1,17 @@
+
+<h1>Bienvenido </h1>
+#<p>Find me in app/views/welcome/index.html.erb</p>
+
+<p>Pagina de inicio</p>
+<p>UNAN-León</p>
+<h3>Imprimiendo un array Ruby dentro de una vista</h3>
+<% @dia_semana.each do |dia| %>
+    <%= dia %> <br>
+<% end %>
+<h3> Método last</h3>
+<%= @dia_semana.last %>
+<h3>Primer campo de array</h3>
+<%= @dia_semana.first %>
+<h3>longitud del array</h3>
+<%= @dia_semana.length %>
+
